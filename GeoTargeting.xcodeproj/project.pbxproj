@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A616731DD0223600E6811B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A616721DD0223600E6811B /* AppDelegate.swift */; };
+		33A616751DD0223600E6811B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A616741DD0223600E6811B /* ViewController.swift */; };
+		33A616781DD0223700E6811B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A616761DD0223700E6811B /* Main.storyboard */; };
+		33A6167A1DD0223700E6811B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A616791DD0223700E6811B /* Assets.xcassets */; };
+		33A6167D1DD0223700E6811B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A6167B1DD0223700E6811B /* LaunchScreen.storyboard */; };
+		33A616881DD0223700E6811B /* GeoTargetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A616871DD0223700E6811B /* GeoTargetingTests.swift */; };
+		33A616931DD0223700E6811B /* GeoTargetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A616921DD0223700E6811B /* GeoTargetingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A616841DD0223700E6811B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A616671DD0223600E6811B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A6166E1DD0223600E6811B;
+			remoteInfo = GeoTargeting;
+		};
+		33A6168F1DD0223700E6811B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A616671DD0223600E6811B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A6166E1DD0223600E6811B;
+			remoteInfo = GeoTargeting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A6166F1DD0223600E6811B /* GeoTargeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTargeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A616721DD0223600E6811B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33A616741DD0223600E6811B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33A616771DD0223700E6811B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A616791DD0223700E6811B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A6167C1DD0223700E6811B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A6167E1DD0223700E6811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A616831DD0223700E6811B /* GeoTargetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoTargetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A616871DD0223700E6811B /* GeoTargetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTargetingTests.swift; sourceTree = "<group>"; };
+		33A616891DD0223700E6811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A6168E1DD0223700E6811B /* GeoTargetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoTargetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A616921DD0223700E6811B /* GeoTargetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTargetingUITests.swift; sourceTree = "<group>"; };
+		33A616941DD0223700E6811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A6166C1DD0223600E6811B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A616801DD0223700E6811B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6168B1DD0223700E6811B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A616661DD0223600E6811B = {
+			isa = PBXGroup;
+			children = (
+				33A616711DD0223600E6811B /* GeoTargeting */,
+				33A616861DD0223700E6811B /* GeoTargetingTests */,
+				33A616911DD0223700E6811B /* GeoTargetingUITests */,
+				33A616701DD0223600E6811B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A616701DD0223600E6811B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A6166F1DD0223600E6811B /* GeoTargeting.app */,
+				33A616831DD0223700E6811B /* GeoTargetingTests.xctest */,
+				33A6168E1DD0223700E6811B /* GeoTargetingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A616711DD0223600E6811B /* GeoTargeting */ = {
+			isa = PBXGroup;
+			children = (
+				33A616721DD0223600E6811B /* AppDelegate.swift */,
+				33A616741DD0223600E6811B /* ViewController.swift */,
+				33A616761DD0223700E6811B /* Main.storyboard */,
+				33A616791DD0223700E6811B /* Assets.xcassets */,
+				33A6167B1DD0223700E6811B /* LaunchScreen.storyboard */,
+				33A6167E1DD0223700E6811B /* Info.plist */,
+			);
+			path = GeoTargeting;
+			sourceTree = "<group>";
+		};
+		33A616861DD0223700E6811B /* GeoTargetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A616871DD0223700E6811B /* GeoTargetingTests.swift */,
+				33A616891DD0223700E6811B /* Info.plist */,
+			);
+			path = GeoTargetingTests;
+			sourceTree = "<group>";
+		};
+		33A616911DD0223700E6811B /* GeoTargetingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33A616921DD0223700E6811B /* GeoTargetingUITests.swift */,
+				33A616941DD0223700E6811B /* Info.plist */,
+			);
+			path = GeoTargetingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A6166E1DD0223600E6811B /* GeoTargeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A616971DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargeting" */;
+			buildPhases = (
+				33A6166B1DD0223600E6811B /* Sources */,
+				33A6166C1DD0223600E6811B /* Frameworks */,
+				33A6166D1DD0223600E6811B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoTargeting;
+			productName = GeoTargeting;
+			productReference = 33A6166F1DD0223600E6811B /* GeoTargeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A616821DD0223700E6811B /* GeoTargetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6169A1DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargetingTests" */;
+			buildPhases = (
+				33A6167F1DD0223700E6811B /* Sources */,
+				33A616801DD0223700E6811B /* Frameworks */,
+				33A616811DD0223700E6811B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A616851DD0223700E6811B /* PBXTargetDependency */,
+			);
+			name = GeoTargetingTests;
+			productName = GeoTargetingTests;
+			productReference = 33A616831DD0223700E6811B /* GeoTargetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33A6168D1DD0223700E6811B /* GeoTargetingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6169D1DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargetingUITests" */;
+			buildPhases = (
+				33A6168A1DD0223700E6811B /* Sources */,
+				33A6168B1DD0223700E6811B /* Frameworks */,
+				33A6168C1DD0223700E6811B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A616901DD0223700E6811B /* PBXTargetDependency */,
+			);
+			name = GeoTargetingUITests;
+			productName = GeoTargetingUITests;
+			productReference = 33A6168E1DD0223700E6811B /* GeoTargetingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A616671DD0223600E6811B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.rsampdev;
+				TargetAttributes = {
+					33A6166E1DD0223600E6811B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QPX29C6Z92;
+						ProvisioningStyle = Automatic;
+					};
+					33A616821DD0223700E6811B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QPX29C6Z92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33A6166E1DD0223600E6811B;
+					};
+					33A6168D1DD0223700E6811B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QPX29C6Z92;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33A6166E1DD0223600E6811B;
+					};
+				};
+			};
+			buildConfigurationList = 33A6166A1DD0223600E6811B /* Build configuration list for PBXProject "GeoTargeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A616661DD0223600E6811B;
+			productRefGroup = 33A616701DD0223600E6811B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A6166E1DD0223600E6811B /* GeoTargeting */,
+				33A616821DD0223700E6811B /* GeoTargetingTests */,
+				33A6168D1DD0223700E6811B /* GeoTargetingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A6166D1DD0223600E6811B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A6167D1DD0223700E6811B /* LaunchScreen.storyboard in Resources */,
+				33A6167A1DD0223700E6811B /* Assets.xcassets in Resources */,
+				33A616781DD0223700E6811B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A616811DD0223700E6811B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6168C1DD0223700E6811B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A6166B1DD0223600E6811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A616751DD0223600E6811B /* ViewController.swift in Sources */,
+				33A616731DD0223600E6811B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6167F1DD0223700E6811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A616881DD0223700E6811B /* GeoTargetingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6168A1DD0223700E6811B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A616931DD0223700E6811B /* GeoTargetingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A616851DD0223700E6811B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A6166E1DD0223600E6811B /* GeoTargeting */;
+			targetProxy = 33A616841DD0223700E6811B /* PBXContainerItemProxy */;
+		};
+		33A616901DD0223700E6811B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A6166E1DD0223600E6811B /* GeoTargeting */;
+			targetProxy = 33A6168F1DD0223700E6811B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A616761DD0223700E6811B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A616771DD0223700E6811B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A6167B1DD0223700E6811B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A6167C1DD0223700E6811B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A616951DD0223700E6811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33A616961DD0223700E6811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A616981DD0223700E6811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = GeoTargeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.GeoTargeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33A616991DD0223700E6811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = GeoTargeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.GeoTargeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		33A6169B1DD0223700E6811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = GeoTargetingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.GeoTargetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTargeting.app/GeoTargeting";
+			};
+			name = Debug;
+		};
+		33A6169C1DD0223700E6811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = GeoTargetingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.GeoTargetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoTargeting.app/GeoTargeting";
+			};
+			name = Release;
+		};
+		33A6169E1DD0223700E6811B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = GeoTargetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.GeoTargetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeoTargeting;
+			};
+			name = Debug;
+		};
+		33A6169F1DD0223700E6811B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QPX29C6Z92;
+				INFOPLIST_FILE = GeoTargetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rsampdev.GeoTargetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeoTargeting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A6166A1DD0223600E6811B /* Build configuration list for PBXProject "GeoTargeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A616951DD0223700E6811B /* Debug */,
+				33A616961DD0223700E6811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A616971DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A616981DD0223700E6811B /* Debug */,
+				33A616991DD0223700E6811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A6169A1DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6169B1DD0223700E6811B /* Debug */,
+				33A6169C1DD0223700E6811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A6169D1DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargetingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6169E1DD0223700E6811B /* Debug */,
+				33A6169F1DD0223700E6811B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A616671DD0223600E6811B /* Project object */;
+}
