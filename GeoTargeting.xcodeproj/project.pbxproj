@@ -14,6 +14,7 @@
 		33A6167D1DD0223700E6811B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A6167B1DD0223700E6811B /* LaunchScreen.storyboard */; };
 		33A616881DD0223700E6811B /* GeoTargetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A616871DD0223700E6811B /* GeoTargetingTests.swift */; };
 		33A616931DD0223700E6811B /* GeoTargetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A616921DD0223700E6811B /* GeoTargetingUITests.swift */; };
+		33A616A31DD0C5DB00E6811B /* America.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 33A616A21DD0C5DB00E6811B /* America.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		33A6168E1DD0223700E6811B /* GeoTargetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoTargetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A616921DD0223700E6811B /* GeoTargetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTargetingUITests.swift; sourceTree = "<group>"; };
 		33A616941DD0223700E6811B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A616A21DD0C5DB00E6811B /* America.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = America.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		33A616661DD0223600E6811B = {
 			isa = PBXGroup;
 			children = (
+				33A616A21DD0C5DB00E6811B /* America.gpx */,
 				33A616711DD0223600E6811B /* GeoTargeting */,
 				33A616861DD0223700E6811B /* GeoTargetingTests */,
 				33A616911DD0223700E6811B /* GeoTargetingUITests */,
@@ -237,6 +240,7 @@
 			files = (
 				33A6167D1DD0223700E6811B /* LaunchScreen.storyboard in Resources */,
 				33A6167A1DD0223700E6811B /* Assets.xcassets in Resources */,
+				33A616A31DD0C5DB00E6811B /* America.gpx in Resources */,
 				33A616781DD0223700E6811B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,7 @@
 				33A616991DD0223700E6811B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A6169A1DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargetingTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				33A6169C1DD0223700E6811B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A6169D1DD0223700E6811B /* Build configuration list for PBXNativeTarget "GeoTargetingUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				33A6169F1DD0223700E6811B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
